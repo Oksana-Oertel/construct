@@ -1,0 +1,380 @@
+body{
+    box-sizing: border-box;
+    min-width: 1440px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    min-height: 768px;
+    min-width: 1440px;
+    background-image: url("../images/city.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.logo {
+   
+    display: block;
+    margin: auto;
+    padding-top: 41px;
+}
+
+.partner{
+ font-family: 'Bebas Neue', cursive;
+font-size: 60px;
+line-height: 70px;
+
+text-align: center;
+letter-spacing: 5.70937px;
+
+color: #FFFFFF;
+margin-top: 300px;;
+}
+
+.firm{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 221px;
+}
+
+.scroll{
+font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+letter-spacing: 3.7px;
+
+color: #FFFFFF;
+}
+
+.menu{
+
+    width: 940px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+letter-spacing: 3.7px;
+color: black;
+
+}
+.menu ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 48px;
+}
+.stroke{
+    border-bottom: 1px solid black;
+}
+.story {
+    
+    width: 940px;
+    margin: auto;
+    margin-top: 58px;
+    margin-bottom: 118px;
+}
+ h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3.7px;
+    color: black;
+ }
+
+ .story h1{
+    margin-bottom: 10px;
+ }
+ .line{
+    display: block;
+    margin: auto;
+ }
+ .first_text{
+    font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.1875px;
+color: #48555B;
+margin-bottom: 30px;
+
+ }
+
+ .second_text{
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+line-height: 23px;
+/* or 177% */
+letter-spacing: 0.1875px;
+color: #48555B;
+
+ }
+
+ .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 77px;
+ }
+ .promo{
+    margin-top: 84px;
+ }
+
+ .text{
+    margin-top: 80px;
+ }
+
+ .capabilities{
+    width: 940px;
+    margin: auto;
+    
+ }
+
+ .capabilities .name h1{
+    text-align: left;
+ }
+ .name{
+    display: inline-block;
+}
+  .insc{
+    display: inline-block;
+    width: 406px;
+    margin-left: 132px;
+    margin-right: 31px;
+ }
+
+ .services{
+    font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+vertical-align: middle;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+background-color: #00A4E5;
+width: 150px;
+line-height: 40px;
+display: inline-block;
+vertical-align: top;
+ }
+
+ .feature h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    letter-spacing: 0.426667px;
+    
+    color: #48555B;
+    margin-bottom: 13px;
+ }
+ .feature{
+    border: 1px solid gray;
+    width: 250px;
+    padding-top: 38px;
+    padding-bottom: 39px;
+    padding-left: 23px;
+    padding-right: 22px;
+    margin-top: 80px;
+
+ }
+
+ .features{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 225px;
+ }
+
+.question{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+     height: 388px;
+     width: 1440px;
+}
+
+.question p{
+    width: 350px;
+    margin: auto;
+    font-family: 'OpenSans';
+font-size: 30px;
+line-height: 36px;
+/* or 120% */
+text-align: center;
+letter-spacing: 0.15px;
+
+color: #48555B;
+margin-bottom: 35px;
+}
+
+.question .button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #00A4E5;
+    width: 150px;
+    line-height: 40px;
+    margin: auto;
+    
+     
+}
+
+.sign_up {
+    background-color: #171819;
+}
+
+.sign_up .button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #00A4E5;
+    width: 150px;
+    line-height: 40px;
+    display: inline-block;
+    
+}
+.news p{
+font-family: 'Open Sans', sans-serif;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+
+letter-spacing: 0.846154px;
+
+color: #FFFFFF;
+display: inline-block;
+}
+.my_input{
+    height: 40px;
+    width: 234px;
+    display: inline-block;
+
+    margin-left: 70px;
+}
+
+input {
+    padding-left: 16px;
+}
+.news{
+    width: 685px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color:  #141A20;
+    
+}
+
+.container{
+    width: 940px;
+    margin: auto;
+    padding-bottom: 49px;
+    display: flex;
+    gap: 71px;
+}
+
+.company{
+    width: 250px;
+}
+.company h3{
+    font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+line-height: 13px;
+text-align: left;
+margin-bottom: 19px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+.company img{
+    margin-bottom: 15px;
+}
+.company p {
+    font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+line-height: 19px;
+/* or 173% */
+letter-spacing: 0.85px;
+
+color: #FFFFFF;
+
+}
+.links{
+    width: 262px;
+    font-family: 'Open Sans';
+font-size: 11px;
+line-height: 25px;
+/* or 227% */
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+text-transform: uppercase;
+
+}
+ul{
+    list-style-type: none;;
+}
+
+.links h3{
+    margin-bottom: 10px;
+}
+
+.cols{
+    display: flex;
+    gap: 34px;
+}
+
+.contact{
+    width: 141px;
+}
+
+.contact h3{
+    font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+line-height: 13px;
+text-align: left;
+margin-bottom: 19px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+
+.contact p{
+    font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+line-height: 16px;
+/* or 145% */
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+
+.rights{
+    font-family: 'Open Sans',  sans-serif;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+letter-spacing: 0.846154px;
+
+color: #FFFFFF;
+margin-top: 22px;
+padding-bottom: 23px;
+}
